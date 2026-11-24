@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>QuillQuest-Your reading advisor</title>
+  <link rel="stylesheet" href="quillquest.css">
+</head>
+
+<body>
+  <div class="header">
+    <div>
+      <p class="name">QuillQuest</p>
+    </div>
+    <div class="searchbooks">
+      <input class="search" type="text" placeholder="Find your book">
+      <button class="voicesearch">
+        <img src="icons/voice-microphone-svgrepo-com.svg" class="mic">
+      </button>
+    </div>
+    <div class="accessibility">
+      <button class="wishlist">
+        <img src="icons/heart-svgrepo-com.svg" class="wished">
+      </button>
+      <button class="reviewed">
+        <img src="icons/review-screen-svgrepo-com.svg" class="review">
+      </button>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div>
+      <button class="buttons">
+        <img src="icons/create-svgrepo-com.svg" class="writeReview">
+      </button>
+    </div>
+    <div>
+      <button class="buttons">
+        <img src="icons/user-friends-svgrepo-com.svg" class="user">
+      </button>
+    </div>
+    <div>
+      <button class="buttons">
+        <img src="icons/share-svgrepo-com.svg" class="share">
+      </button>
+    </div>
+    <div>
+      <button class="buttons">
+        <img src="icons/settings-svgrepo-com.svg" class="settings">
+      </button>
+    </div>
+  </div>
+  <p class="intro">Welcome to QuillQuest, your ultimate stop for getting book reviews, for both readers and authors.
+    Here, readers can find book suggestions for their next read, according <br> to their preffered genre and tastes, and
+    authors can find genuine critiques that provide descriptive reviews. Our platform unites authors and readers to
+    create an environment <br> to flourish good reads.</p>
+
+  <p class="h1">Bestselling - Loved by all</p>
+  <div class="listgrid">
+    <div id="openbookpage1" style="cursor: pointer;">
+      <img class="cover" src="bookcovers/t1.jpg">
+      <text class="bookname">The Nightingale</text>
+      <text class="authorname">Kristin Hannah</text>
+    </div>
+    <div id="openbookpage2" style="cursor: pointer;">
+      <img class="cover" src="bookcovers/t2.jpg">
+      <text class="bookname">Light Bringer</text>
+      <text class="authorname">Pierce brown</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t3.jpg">
+      <text class="bookname">Kingdom of Ash</text>
+      <text class="authorname">Sarah J. Maas</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t4.jpg">
+      <text class="bookname">Theo of Golden</text>
+      <text class="authorname">Allen Levi</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t5.jpg">
+      <text class="bookname">The Calamity Club</text>
+      <text class="authorname">Kathryn Stockett</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t6.jpg">
+      <text class="bookname">Whistler</text>
+      <text class="authorname">Ann Patchett</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t7.jpg">
+      <text class="bookname">Yesteryear</text>
+      <text class="authorname">Caro Claire Burke</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t8.jpg">
+      <text class="bookname">Project Hail Mary</text>
+      <text class="authorname">Andy Weir</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t9.jpg">
+      <text class="bookname">The Anxious Generation</text>
+      <text class="authorname">Jonathan Haidt</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t10.jpg">
+      <text class="bookname">View from the East Wing</text>
+      <text class="authorname">Jill Biden</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t11.jpg">
+      <text class="bookname">London Falling</text>
+      <text class="authorname">Patrick Radden Keefe</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t12.jpg">
+      <text class="bookname">Stranger</text>
+      <text class="authorname">Belle Burden</text>
+    </div>
+    <div>
+      <img class="cover" src="bookcovers/t13.jpg">
+      <text class="bookname">A World Appears</text>
+      <text class="authorname">Michael Pollan</text>
+    </div>
+  </div>
+  <script>
+    document.getElementById("openbookpage1").addEventListener("click", () => { window.location.href = "theNightingale-quillquest.html" });
+
+    document.getElementById("openbookpage2").addEventListener("click", () => { window.location.href = "lightBringer-quillquest.html" });
+  </script>
+</body>
+
+</html>

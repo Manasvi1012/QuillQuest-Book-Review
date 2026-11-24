@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 15px;
+  color: white;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  background-color: rgb(56, 78, 179);
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 95px;
+  bottom: 0;
+  background-color: rgb(165, 180, 248);
+  justify-content: space-between;
+}
+
+.h1 {
+  font-style: italic;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cover {
+  width: 200px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.search {
+  margin: 10px;
+  height: 40px;
+  margin-left: 1flex;
+  padding-right: 120px;
+  box-shadow: inset 2px 2px 7px rgba(0, 0, 0, 0.15);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+}
+
+.listgrid {
+  display: grid;
+  grid-template-columns: 255px 255px 255px 255px 255px;
+}
+
+.intro {
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.bookname {
+  display: block;
+  font-size: 20px;
+}
+
+.authorname {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.wishlist,
+.voicesearch,
+.reviewed {
+  padding: 8px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(192, 203, 253);
+}
+
+.mic,
+.review,
+.wished {
+  height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.reviewed {
+  margin-right: 50px;
+}
+
+.wishlist {
+  margin-right: 16px;
+}
+
+.buttons {
+  padding: 8px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(192, 203, 253);
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.writeReview,
+.user,
+.share,
+.settings {
+  height: 24px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
